@@ -46,7 +46,7 @@ class DatabaseLoader @Autowired constructor (val courses : CourseRepository, val
                 User("calebkleveter", "Caleb",  "Kleveter", "password", arrayOf("ROLE_USER")),
                 User("richdonellan", "Rich",  "Donnellan", "password", arrayOf("ROLE_USER")),
                 User("albertqerimi", "Albert",  "Qerimi", "password", arrayOf("ROLE_USER")),
-                User("jayanth", "John",  "Doe", "password", arrayOf("ROLE_USER", "ROLE_ADMIN"))
+                User("admin", "John",  "Doe", "password", arrayOf("ROLE_USER", "ROLE_ADMIN"))
         )
         users.save(students)
 
