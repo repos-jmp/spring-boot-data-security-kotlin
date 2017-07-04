@@ -1,4 +1,4 @@
-# RESTful API using the Spring Boot in Kotlin
+# RESTful API using Spring Boot, in Kotlin
 
 Spring Boot Rest Data Security Example using Kotlin
 
